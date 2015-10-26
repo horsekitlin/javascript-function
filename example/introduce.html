@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Introduce</title>
+    <script language='javascript'>
+        var prod = {
+            price : 50,
+            name : '豪吃香雞排'
+        };
+        var count = 5;
+        function bill(prod, count){
+            /**
+            * @params prod : 產品細項 object
+            *   @ params price : 商品價格 number
+            *   @ params name : 商品名稱 string
+            * @params count : 購買數量 number
+            *
+            * return : 這筆訂單的總價格 (number)
+            **/
+            return prod.price * count;
+        }
+        var total = bill(prod, count);
+        alert('您的訂單總額為:' + total);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
