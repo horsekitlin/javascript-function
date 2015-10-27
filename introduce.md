@@ -1,5 +1,7 @@
 #Introduce
 
+![TWNIC](logo.jpg)
+
 ##Javascript 重要的幾個概念
 
 1. javascript 中幾乎所有的變數(variable)，函式(function)都是物件。
