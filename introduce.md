@@ -18,17 +18,8 @@ function 是一個小工廠，依據你的輸入值去完成特定的行為或�
 ##Function 重要的組成：
 
     * Input : 函數的輸入值
+
     * logic : 函數中的邏輯運算
+
     * output : 函數回傳值
 
-##Javascript的Function 可分為三個種類:
-
-###function : 一般常見的function
-
-[一般的函式](example/normal-function.html)
-
-###匿名function : 沒有名稱的function
-
-###callback function : 完成某些特定的工作後通知程式繼續完成工作
-
-[javascript 小雷](example/boom1.html)
