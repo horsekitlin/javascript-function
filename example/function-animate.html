@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Read your code</title>
+    <script src='https://code.jquery.com/jquery-1.11.3.min.js'></script>
+</head>
+<body>
+    <img src='http://www.coolaler.com.tw/image/news/12/7/ff7_6.jpg'
+        style='width:200px;height:150px;opacity:0.2;'
+        id='image'>
+    <p id='type'>normal</p>
+</body>
+<script language="javascript">
+    $(document).ready(function(){
+        $('#image').bind('mouseenter', function(e){
+            $('#image').animate({
+                opacity: 1,
+                width: "750px",
+                height : "562px"
+            }, 500, function(){
+                $('#type').html('focus');
+            });
+        });
+        $('#image').bind('mouseleave', function(e){
+            $('#image').animate({
+                opacity: 0.2,
+                width: "250px",
+                height : "150px"
+            }, 500, function() {
+                $('#type').html('normal');
+            });
+        });
+    });
+</script>
+</html>

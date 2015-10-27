@@ -1,44 +1,34 @@
 #Introduce
 
-function 是一個小工廠，依據你的輸入值去完成特定的工作之後
+##Javascript 重要的幾個概念
+
+1. javascript 中幾乎所有的變數(variable)，函式(function)都是物件。
+
+2. javascript 是非同步的語言架構
+
+    [sync](https://zh.wikipedia.org/wiki/Sync_(Unix))
+
+    [async](https://zh.wikipedia.org/wiki/%E9%9D%9E%E5%90%8C%E6%AD%A5)
+
+## function
+
+function 是一個小工廠，依據你的輸入值去完成特定的行為或工作之後
 回傳相對應的值或是不回傳值
 
-Function 重要的組成：
+##Function 重要的組成：
 
     * Input : 函數的輸入值
     * logic : 函數中的邏輯運算
     * output : 函數回傳值
 
-Demo
+##Javascript的Function 可分為三個種類:
 
-    var prod = {
-        price : 50,
-        name : '豪吃香雞排'
-    };
+###function : 一般常見的function
 
-    var count = 5;
+[一般的函式](example/normal-function.html)
 
-    function bill(prod, count){
-        /**
-        * @params prod : 產品細項 object
-        *   @ params price : 商品價格 number
-        *   @ params name : 商品名稱 string
-        * @params count : 購買數量 number
-        *
-        * return : 這筆訂單的總價格 (number)
-        **/
-        return prod.price * count;
-    }
+###匿名function : 沒有名稱的function
 
-    var total = bill(prod, count);
+###callback function : 完成某些特定的工作後通知程式繼續完成工作
 
-    alert('您的訂單總額為:' + total);
-
-Javascript的Function 可分為三個種類:
-
-    * function : 一般常見的function
-
-    * 匿名function : 沒有名稱的function
-
-    * callback function : 完成某些特定的工作後通知程式繼續完成工作
-
+[javascript 小雷](example/boom1.html)
