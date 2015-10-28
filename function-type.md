@@ -27,6 +27,6 @@
 javascript 特別的地方就是，每一個function 也都是一個物件
 所以也可以當成 Input 的參數
 
-[如何將姚明放到最後](http://codepen.io/Tomas-Lin/pen/RWyjqK)
+[這個壞掉了吧](http://codepen.io/Tomas-Lin/pen/RWyjqK)
 
 [下一頁](how-to-use-function.md)
