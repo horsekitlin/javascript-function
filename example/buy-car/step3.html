@@ -5,7 +5,7 @@
     <script src='https://code.jquery.com/jquery-1.11.3.min.js'></script>
   <style>
         *{margin:0;padding:0;list-style: none;}
-        body{background: #fff;overflow: hidden;}
+        body{background: #fff;}
         .head-shopcart{width: 180px;height: 30px;line-height: 30px;text-align: left;padding: 0 10px;position: fixed;right: 0px;bottom: 0px;background: #D13131; color:#fff;font-size: 12px;}
             #lanren{width: 430px;height: auto;margin: 100px auto;background: #fff;}
             #lanren li{width: 200px;height: auto;float: left;margin:10px 0 0 10px;overflow: hidden;text-align: center;}
@@ -31,8 +31,10 @@
 
     $(".btn-buy").bind('click', function(e){
         var img = $(this).parent().find('img');
-        var cloneimg = img.clone();
-        $("#image").append(cloneimg);
+        img.animate({
+            width : 30,
+            height : 20
+        });
     });
 </script>
 </html>

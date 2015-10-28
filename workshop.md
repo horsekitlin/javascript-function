@@ -8,6 +8,14 @@
 
 ##購物特效
 
-[buyprod](example/buy-car/index.js)
+[step0](example/buy-car/step0.html)
+
+1. [複製一張圖片](example/buy-car/step1.html)
+
+2. [將圖片移動到右下方](example/buy-car/step2/html)
+
+3. [圖片由大變小](example/buy-car/step3.html)
+
+4. [移除這張圖片](example/buy-car/step4.html)
 
 [buyprod-liveshow](http://demo.lanrenzhijia.com/2015/cart0327/)
