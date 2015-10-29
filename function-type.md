@@ -1,5 +1,7 @@
 #Function 的種類
 
+![TWNIC](logo.jpg)
+
 ##Javascript的Function 可分為三個種類:
 
 ###function : 一般常見的function
@@ -20,13 +22,17 @@
 
 ###callback function :
 
+為什麼我們需要callback function
+
 呼叫器，做完或是做到一個階段時回報
+
+[這個壞掉了吧](http://codepen.io/Tomas-Lin/pen/RWyjqK)
 
 [javascript 非同步時間差](http://codepen.io/Tomas-Lin/pen/BoxjwG?editors=101)
 
 javascript 特別的地方就是，每一個function 也都是一個物件
 所以也可以當成 Input 的參數
 
-[這個壞掉了吧](http://codepen.io/Tomas-Lin/pen/RWyjqK)
+[靠背工程師這兩天很紅的一加到十](http://codepen.io/Tomas-Lin/pen/KdRJGW?editors=101)
 
 [下一頁](how-to-use-function.md)

@@ -1,5 +1,7 @@
 #一起完成兩個簡單的特效吧
 
+![TWNIC](logo.jpg)
+
 ##foucs
 
 [Foucus](example/function-animate.html)

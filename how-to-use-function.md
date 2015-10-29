@@ -1,5 +1,7 @@
 #什麼時候可以使用function
 
+![TWNIC](logo.jpg)
+
 1. 可以重複使用的程式碼
 
 [jquery](https://jquery.com/)
